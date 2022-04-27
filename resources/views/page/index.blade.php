@@ -200,7 +200,7 @@
             </div>
             <div class="col-6 py-2 col-md-3 text-center">
                 <img src='./img/tnc-3.png' class="img-fluid" />
-                <h5>Mahasiswa/mahasiswi jurusan hukum; Lulusan jurusan hukum</h5>
+                <h5>Mahasiswa/i jurusan hukum & syariah; Lulusan hukum & syariah</h5>
             </div>
             <div class="col-6 py-2 col-md-3 text-center">
                 <img src='./img/tnc-4.png' class="img-fluid" />
