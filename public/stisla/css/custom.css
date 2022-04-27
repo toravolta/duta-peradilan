@@ -1,0 +1,60 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+/* 4.1 Misc */
+:root {
+    /* Colors */
+    --primary: #1090ee;
+    --secondary: #34395e;
+    --success: #47c363;
+    --info: #3abaf4;
+    --warning: #ffa426;
+    --danger: #fc544b;
+    --light: #e3eaef;
+    --dark: #191d21;
+}
+body {
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito", "Segoe UI", arial;
+    color: #191d21;
+}
+
+/* Table */
+  .table:not(.table-sm) thead th {
+      border-bottom: none;
+      background-color: rgba(0, 0, 0, 0.04);
+      color: #000;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+  }
+
+  .table-striped-1 tbody tr:nth-of-type(even) {
+      background-color: rgb(105, 200, 238);
+  }
+
+  /* 3.10 Pagination */
+  .page-item .page-link {
+      color: #000;
+      border-radius: 3px;
+      margin: 0 3px;
+  }
+
+  .page-item.active .page-link {
+      background-color: #1090ee;
+      border-color: #1090ee;
+  }
+
+  .page-item.disabled .page-link {
+      border-color: transparent;
+      background-color: #3131;
+      color: #000;
+      opacity: .6;
+  }
